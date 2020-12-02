@@ -1,0 +1,15 @@
+.\lab1.o: Lab1.c
+.\lab1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\lab1.o: ../inc/tm4c123gh6pm.h
+.\lab1.o: ../inc/CortexM.h
+.\lab1.o: ../inc/LaunchPad.h
+.\lab1.o: ../inc/LPF.h
+.\lab1.o: ../inc/PLL.h
+.\lab1.o: ../inc/Timer4A.h
+.\lab1.o: ../inc/Timer5A.h
+.\lab1.o: ../inc/UART0int.h
+.\lab1.o: ../inc/IRDistance.h
+.\lab1.o: ../RTOS_Labs_common/OS.h
+.\lab1.o: ../RTOS_Labs_common/ADC.h
+.\lab1.o: ../RTOS_Labs_common/Interpreter.h
+.\lab1.o: ../RTOS_Labs_common/ST7735.h

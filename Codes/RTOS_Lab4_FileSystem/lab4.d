@@ -1,0 +1,17 @@
+.\lab4.o: Lab4.c
+.\lab4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\lab4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\lab4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\lab4.o: ../inc/tm4c123gh6pm.h
+.\lab4.o: ../inc/CortexM.h
+.\lab4.o: ../inc/LaunchPad.h
+.\lab4.o: ../inc/LPF.h
+.\lab4.o: ../inc/IRDistance.h
+.\lab4.o: ../RTOS_Labs_common/OS.h
+.\lab4.o: ../RTOS_Labs_common/Interpreter.h
+.\lab4.o: ../RTOS_Labs_common/ST7735.h
+.\lab4.o: ../inc/ADCT0ATrigger.h
+.\lab4.o: ../RTOS_Labs_common/UART0int.h
+.\lab4.o: ../RTOS_Labs_common/eDisk.h
+.\lab4.o: ../RTOS_Labs_common/eFile.h
+.\lab4.o: ../RTOS_Labs_common/ADC.h

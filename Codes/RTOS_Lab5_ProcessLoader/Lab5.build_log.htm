@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Huanghaohe Zou, University of Texas at Austin, LIC=AK111-W35JG-APQQL-IM1X5-IEFBD-8UHKB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.31.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+E:\Github\lab-5-ph22637_hz6755\Codes\RTOS_Lab5_ProcessLoader\Lab5.uvprojx
+Project File Date:  11/09/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Lab5'
+assembling osasm.s...
+assembling startup.s...
+compiling eFile.c...
+compiling Interpreter.c...
+compiling ST7735.c...
+compiling IRDistance.c...
+compiling LPF.c...
+compiling UART0int.c...
+compiling heap.c...
+..\RTOS_Labs_common\heap.c(233): warning:  #111-D: statement is unreachable
+  	return 0;
+..\RTOS_Labs_common\heap.c: 1 warning, 0 errors
+compiling LaunchPad.c...
+compiling PLL.c...
+compiling ADC.c...
+compiling ADCT0ATrigger.c...
+compiling ADCSWTrigger.c...
+compiling ff.c...
+compiling eDisk.c...
+compiling loader.c...
+compiling OS.c...
+..\RTOS_Labs_common\OS.c(395): warning:  #940-D: missing return statement at end of non-void function "OS_AddThread" 
+  };
+..\RTOS_Labs_common\OS.c(526): warning:  #940-D: missing return statement at end of non-void function "OS_AddPeriodicThread" 
+  };
+..\RTOS_Labs_common\OS.c(731): warning:  #223-D: function "ContextSwitch" declared implicitly
+    ContextSwitch();
+..\RTOS_Labs_common\OS.c(924): warning:  #223-D: function "StartOS" declared implicitly
+  	StartOS(RunPt->SavedSP);
+..\RTOS_Labs_common\OS.c: 4 warnings, 0 errors
+compiling WTimer0A.c...
+compiling Lab5.c...
+compiling Timer5A.c...
+linking...
+Program Size: Code=26604 RO-data=2428 RW-data=260 ZI-data=31900  
+".\Lab5.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Lab5
+  C:\Users\Huanghaohe Zou\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
